@@ -1,0 +1,5 @@
+O intuito do sistema é manter atualizados os registros de restaurantes e os pratos servidos pelos mesmos. 
+
+Para isso deverão ser criados dois cadastros que permitirão tais tarefas. Cadastro de Restaurantes: 
+Esse cadastro irá manter os registros relacionados aos restaurantes. 
+Cadastro de Pratos: Esse cadastro irá manter os registros relacionados aos pratos.
