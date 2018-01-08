@@ -1,0 +1,8 @@
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.deps.json
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.dll
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.pdb
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\obj\Debug\netcoreapp2.0\SampleWebAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\obj\Debug\netcoreapp2.0\SampleWebAPI.Data.AssemblyInfoInputs.cache
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\obj\Debug\netcoreapp2.0\SampleWebAPI.Data.AssemblyInfo.cs
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\obj\Debug\netcoreapp2.0\SampleWebAPI.Data.dll
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Data\obj\Debug\netcoreapp2.0\SampleWebAPI.Data.pdb

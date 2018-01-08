@@ -1,0 +1,11 @@
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Application.deps.json
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Application.dll
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Application.pdb
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.dll
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.pdb
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.csprojResolveAssemblyReference.cache
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.AssemblyInfoInputs.cache
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.AssemblyInfo.cs
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.dll
+C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI.Application\obj\Debug\netcoreapp2.0\SampleWebAPI.Application.pdb
