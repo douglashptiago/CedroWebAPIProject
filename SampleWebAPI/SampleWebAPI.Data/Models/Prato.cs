@@ -8,6 +8,7 @@ namespace SampleWebAPI.Data.Models
     {
         public int PratoId { get; set; }
         public string NomePrato { get; set; }
+        public decimal Preco { get; set; }
 
         public int RestauranteId { get; set; }
         public Restaurante Restaurante { get; set; }

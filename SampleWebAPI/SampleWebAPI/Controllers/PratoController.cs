@@ -10,12 +10,12 @@ using SampleWebAPI.Data.Models;
 namespace SampleWebAPI.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Restaurante")]
-    public class RestauranteController : Controller
+    [Route("api/Prato")]
+    public class PratoController : Controller
     {
         private readonly Context _context;
 
-        public RestauranteController(Context context)
+        public PratoController(Context context)
         {
             _context = context;
 
@@ -27,15 +27,15 @@ namespace SampleWebAPI.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Restaurante> GetAll()
+        public IEnumerable<Prato> GetAll()
         {
-            return _context.Restaurantes.ToList();
+            return _context.Pratos.ToList();
         }
 
-        [HttpGet("{id}", Name = "GetRestaurantes")]
+        [HttpGet("{id}", Name = "GetPratos")]
         public IActionResult GetById(int id)
         {
-            var item = _context.Restaurantes.FirstOrDefault(t => t.RestauranteId == id);
+            var item = _context.Pratos.FirstOrDefault(t => t.PratoId == id);
             if (item == null)
             {
                 return NotFound();
@@ -44,37 +44,38 @@ namespace SampleWebAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] Restaurante restaurante)
+        public IActionResult Create([FromBody] Prato prato)
         {
-            if (restaurante == null)
+            if (prato == null)
             {
                 return BadRequest();
             }
 
-            _context.Restaurantes.Add(restaurante);
+            _context.Pratos.Add(prato);
             _context.SaveChanges();
 
-            return CreatedAtRoute("GetRestaurantes", new { id = restaurante.RestauranteId }, restaurante);
+            return CreatedAtRoute("GetPratos", new { id = prato.PratoId }, prato);
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] Restaurante restaurante)
+        public IActionResult Update(int id, [FromBody] Prato prato)
         {
-            if (restaurante == null || restaurante.RestauranteId != id)
+            if (prato == null || prato.PratoId != id)
             {
                 return BadRequest();
             }
 
-            var todo = _context.Restaurantes.FirstOrDefault(t => t.RestauranteId == id);
+            var todo = _context.Pratos.FirstOrDefault(t => t.PratoId == id);
             if (todo == null)
             {
                 return NotFound();
             }
 
-            todo.NomeRestaurante = restaurante.NomeRestaurante;
-            todo.Pratos = restaurante.Pratos;
+            todo.NomePrato = prato.NomePrato;
+            todo.Preco = todo.Preco;
+            todo.RestauranteId = prato.RestauranteId;
 
-            _context.Restaurantes.Update(todo);
+            _context.Pratos.Update(todo);
             _context.SaveChanges();
             return new NoContentResult();
         }
@@ -82,13 +83,13 @@ namespace SampleWebAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var todo = _context.Restaurantes.FirstOrDefault(t => t.RestauranteId == id);
+            var todo = _context.Pratos.FirstOrDefault(t => t.PratoId == id);
             if (todo == null)
             {
                 return NotFound();
             }
 
-            _context.Restaurantes.Remove(todo);
+            _context.Pratos.Remove(todo);
             _context.SaveChanges();
             return new NoContentResult();
         }

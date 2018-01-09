@@ -13,3 +13,16 @@ C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI\bin\Debu
 C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.dll
 C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.Application.pdb
 C:\Users\dougl\OneDrive\Documentos\TesteCedro\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.pdb
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.deps.json
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.runtimeconfig.json
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.runtimeconfig.dev.json
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.dll
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.pdb
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.dll
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.pdb
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.csprojResolveAssemblyReference.cache
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.AssemblyInfoInputs.cache
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.AssemblyInfo.cs
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.dll
+C:\Users\dougl\OneDrive\Documentos\GitHub\CedroWebAPIProject\SampleWebAPI\SampleWebAPI\obj\Debug\netcoreapp2.0\SampleWebAPI.pdb

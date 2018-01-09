@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20180109012953_InitialCreate.cs" />
+    <Compile Remove="Migrations\20180109012953_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -20,9 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="SampleWebAPI.Application">
-      <HintPath>..\SampleWebAPI.Application\bin\Debug\netcoreapp2.0\SampleWebAPI.Application.dll</HintPath>
-    </Reference>
     <Reference Include="SampleWebAPI.Data">
       <HintPath>..\SampleWebAPI.Data\bin\Debug\netcoreapp2.0\SampleWebAPI.Data.dll</HintPath>
     </Reference>

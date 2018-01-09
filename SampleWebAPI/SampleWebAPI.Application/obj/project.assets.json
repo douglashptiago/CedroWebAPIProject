@@ -3401,11 +3401,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\SampleWebAPI\\SampleWebAPI.Application\\SampleWebAPI.Application.csproj",
+      "projectUniqueName": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\SampleWebAPI\\SampleWebAPI.Application\\SampleWebAPI.Application.csproj",
       "projectName": "SampleWebAPI.Application",
-      "projectPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\SampleWebAPI\\SampleWebAPI.Application\\SampleWebAPI.Application.csproj",
+      "projectPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\SampleWebAPI\\SampleWebAPI.Application\\SampleWebAPI.Application.csproj",
       "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\SampleWebAPI\\SampleWebAPI.Application\\obj\\",
+      "outputPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\SampleWebAPI\\SampleWebAPI.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

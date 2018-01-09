@@ -39,7 +39,18 @@ namespace SampleWebAPI
             services.AddMvc();
 
             var connection = @"Server=(localdb)\mssqllocaldb;Database=SampleDB;Trusted_Connection=True;ConnectRetryCount=0";
-            services.AddDbContext<Context>(options => options.UseSqlServer(connection));
+            services.AddDbContext<Context>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("SampleWebAPI")));
         }
+
+        //public void ConfigureServices(IServiceCollection services)
+        //{
+        //    services.AddDbContext<Context>(opt => opt.UseInMemoryDatabase("myDB"));
+        //    services.AddMvc();
+        //}
+
+        //public void Configure(IApplicationBuilder app)
+        //{
+        //    app.UseMvc();
+        //}
     }
 }

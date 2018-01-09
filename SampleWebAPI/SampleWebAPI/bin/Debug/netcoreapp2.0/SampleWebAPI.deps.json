@@ -28,7 +28,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.1",
-          "SampleWebAPI.Application": "1.0.0.0",
           "SampleWebAPI.Data": "1.0.0.0"
         },
         "runtime": {
@@ -4057,14 +4056,6 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "SampleWebAPI.Application/1.0.0.0": {
-        "runtime": {
-          "SampleWebAPI.Application.dll": {}
-        },
-        "compile": {
-          "SampleWebAPI.Application.dll": {}
-        }
-      },
       "SampleWebAPI.Data/1.0.0.0": {
         "runtime": {
           "SampleWebAPI.Data.dll": {}
@@ -6384,11 +6375,6 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
-    },
-    "SampleWebAPI.Application/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     },
     "SampleWebAPI.Data/1.0.0.0": {
       "type": "reference",
