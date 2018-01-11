@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using WebAPIProject.Context;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Cors.Internal;
 
 namespace WebAPIProject
 {
@@ -37,7 +39,6 @@ namespace WebAPIProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-
             var connection = @"Server=(localdb)\mssqllocaldb;Database=SampleDB;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<MyContext>(options => options.UseSqlServer(connection));
         }

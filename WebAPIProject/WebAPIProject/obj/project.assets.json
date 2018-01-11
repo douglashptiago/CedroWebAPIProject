@@ -13132,11 +13132,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
+      "projectUniqueName": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
       "projectName": "WebAPIProject",
-      "projectPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
+      "projectPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
       "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\TesteCedro\\WebAPIProject\\WebAPIProject\\obj\\",
+      "outputPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CedroWebAPIProject\\WebAPIProject\\WebAPIProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
