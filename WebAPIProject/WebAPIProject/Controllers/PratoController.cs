@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPIProject.Context;
 using WebAPIProject.Models;
@@ -19,18 +16,15 @@ namespace WebAPIProject.Controllers
         public PratoController(MyContext context)
         {
             _context = context;
-
-            //if (_context.Restaurantes.Count() == 0)
-            //{
-            //    _context.Restaurantes.Add(new Restaurante {  NomeRestaurante = "Teste1" });
-            //    _context.SaveChanges();
-            //}
         }
 
         [HttpGet]
-        public IEnumerable<Prato> GetAll()
+        public List<Prato> GetAll()
         {
-            return _context.Prato.ToList();
+            var result = _context.Prato
+            .ToList();
+
+            return result;
         }
 
         [HttpGet("{id}", Name = "GetPratos")]

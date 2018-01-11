@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using WebAPIProject.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
+using Microsoft.AspNetCore.Mvc.Formatters;
 
 namespace WebAPIProject
 {
@@ -32,13 +33,18 @@ namespace WebAPIProject
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder =>
+               builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
             app.UseMvc();
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
+
             services.AddMvc();
+
             var connection = @"Server=(localdb)\mssqllocaldb;Database=SampleDB;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<MyContext>(options => options.UseSqlServer(connection));
         }
