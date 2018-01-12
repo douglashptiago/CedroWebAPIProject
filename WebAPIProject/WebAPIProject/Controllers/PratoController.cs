@@ -67,7 +67,7 @@ namespace WebAPIProject.Controllers
             }
 
             todo.NomePrato = prato.NomePrato;
-            todo.Preco = todo.Preco;
+            todo.Preco = prato.Preco;
             todo.RestauranteId = prato.RestauranteId;
 
             _context.Prato.Update(todo);

@@ -19,12 +19,6 @@ namespace WebAPIProject.Controllers
         public RestauranteController(MyContext context)
         {
             _context = context;
-
-            if (_context.Restaurante.Count() == 0)
-            {
-                _context.Restaurante.Add(new Restaurante { NomeRestaurante = "Teste1" });
-                _context.SaveChanges();
-            }
         }
 
         [HttpGet]
